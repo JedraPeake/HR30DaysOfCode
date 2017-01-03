@@ -1,5 +1,3 @@
-import com.sun.xml.internal.bind.v2.schemagen.xmlschema.Import;
-
 import java.util.Scanner;
 
 public class TicTacToeApplication {
@@ -57,7 +55,7 @@ public class TicTacToeApplication {
             System.out.println();
 
             System.out.println("Would you like to play again? If yes enter Y");
-            char again=sc.next().toUpperCase.charAt(0);
+            char again=sc.next().charAt(0);
             doYouWantToPlay = (again =='Y');
 
             System.out.println();
